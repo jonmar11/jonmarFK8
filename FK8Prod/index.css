@@ -1,0 +1,62 @@
+/* Main Header */
+
+h1 {
+    font-family: 'Permanent Marker';
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: block;
+    background-image: url(./images/HD-wallpaper-anime-cityscape-night-buildings-balcony-stars-scenery-anime.jpg);
+
+}
+h2 {
+    font-family: 'Permanent Marker';
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+
+h3 {
+    font-weight: bold;
+    font-family: 'Permanent Marker';
+    text-align: left;
+}
+
+
+p {
+    text-align: left;
+    color: black;
+
+}
+
+text {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: blue;
+}
+
+.pictures {
+    font-family: 'Permanent Marker';
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+.goals {
+    font-family: 'Permanent Marker';
+}
+.socials {
+    font-family: 'Permanent Marker';
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+
+
+/* Rolling Picture */
+.fk8 {
+    width: 500px;
+}
