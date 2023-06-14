@@ -29,7 +29,7 @@ h3 {
 p {
     text-align: left;
     color: black;
-
+    font-size: 24px;
 }
 
 text {
@@ -62,6 +62,15 @@ text {
 /* Rolling Picture */
 .fk8 {
     width: 500px;
+    position: relative;
+    
+}
+
+/* Social Media */
+.media {
+    width: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 button {
@@ -81,4 +90,8 @@ button:hover {
 
 button:visited {
     color: black;
+}
+
+button.highlight:hover {
+    color: beige;
 }
