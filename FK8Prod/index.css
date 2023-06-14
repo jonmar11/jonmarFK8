@@ -16,6 +16,7 @@ h2 {
     font-weight: bold;
     color: white;
     background-color: rgb(255, 0, 0);
+    text-align: center;
 }
 
 h3 {
@@ -43,6 +44,7 @@ text {
     font-weight: bold;
     color: white;
     background-color: rgb(255, 0, 0);
+    text-align: center;
 }
 .goals {
     font-family: 'Permanent Marker';
@@ -53,10 +55,30 @@ text {
     font-weight: bold;
     color: white;
     background-color: rgb(255, 0, 0);
+    text-align: center;
 }
 
 
 /* Rolling Picture */
 .fk8 {
     width: 500px;
+}
+
+button {
+    font-family: 'Permanent Marker';
+    font-size: 16px;
+    color: red;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+button:hover {
+    cursor: pointer;
+    
+}
+
+button:visited {
+    color: black;
 }
