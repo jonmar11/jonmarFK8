@@ -15,7 +15,7 @@ h2 {
     font-size: 32px;
     font-weight: bold;
     color: white;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(92, 89, 89);
     text-align: center;
 }
 
@@ -43,7 +43,7 @@ text {
     font-size: 32px;
     font-weight: bold;
     color: white;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(92, 89, 89);
     text-align: center;
 }
 .goals {
@@ -54,14 +54,14 @@ text {
     font-size: 32px;
     font-weight: bold;
     color: white;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(92, 89, 89);
     text-align: center;
 }
 
 
 /* Rolling Picture */
 .fk8 {
-    width: 500px;
+    width: 465px;
     position: relative;
     
 }
@@ -73,14 +73,35 @@ text {
     padding-right: 20px;
 }
 
+/* Instagram */
+
+
+
+.breadcrumb > li {
+    display: inline;
+    text-align: center;
+    margin: auto;
+}
+
+.breadcrumb li+li::before {
+    padding: 10px;
+    content: "-";
+}
+
+.breadcrumb a {
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    color: white;
+}
+
 button {
     font-family: 'Permanent Marker';
     font-size: 16px;
-    color: red;
+    color: rgb(0, 0, 0);
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    
+    box-shadow: 0px 4px;
 }
 
 button:hover {
@@ -94,4 +115,9 @@ button:visited {
 
 button.highlight:hover {
     color: beige;
+}
+
+footer {
+    background-color: aliceblue;
+    
 }
