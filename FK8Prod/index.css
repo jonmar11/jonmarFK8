@@ -44,7 +44,8 @@ text {
     font-weight: bold;
     color: white;
     background-color: rgb(92, 89, 89);
-    text-align: center;
+    justify-content: center;
+    object-fit: cover;
 }
 .goals {
     font-family: 'Permanent Marker';
